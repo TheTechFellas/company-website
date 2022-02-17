@@ -415,11 +415,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   line-height: 26px;
 }
-#hero .icon-box h3 a {
+#hero a .icon-box h3 {
   color: #fff;
   transition: ease-in-out 0.3s;
 }
-#hero .icon-box h3 a:hover {
+#hero a .icon-box h3:hover {
   color: #ffc451;
 }
 #hero .icon-box:hover {
@@ -872,7 +872,7 @@ section {
   color: #626262;
 }
 .counts .image {
-  background: url("../img/counts-img.jpg") center center no-repeat;
+  background: url("../img/omnigogy.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -888,6 +888,10 @@ section {
   .counts .image img {
     max-width: 100%;
   }
+}
+
+#counts {
+  padding-top: 150px;
 }
 
 /*--------------------------------------------------------------
