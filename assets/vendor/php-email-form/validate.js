@@ -88,7 +88,7 @@
       "body": body
     }
 
-    fetch("https://fellas-rest-stage.herokuapp.com/api/email", {
+    fetch("https://fellas-rest.herokuapp.com/api/email", {
       method: 'POST',
       body: JSON.stringify(request),
       headers: {'Content-Type': 'application/json'}
