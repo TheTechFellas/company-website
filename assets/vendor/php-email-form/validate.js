@@ -83,12 +83,12 @@
     body += "Message: " + document.getElementById("message").value + "\n";
   
     let request = {
-      "toEmail": "techfellasde@gmail.com",
+      "toEmails": ["techfellasde@gmail.com"],
       "subject": document.getElementById("subject").value,
       "body": body
     }
 
-    fetch("https://fellas-rest.herokuapp.com/api/email", {
+    fetch("https://fellas-rest-stage.herokuapp.com/api/email", {
       method: 'POST',
       body: JSON.stringify(request),
       headers: {'Content-Type': 'application/json'}
